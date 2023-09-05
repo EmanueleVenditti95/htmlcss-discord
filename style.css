@@ -49,6 +49,9 @@ body{
 .bg-black {
     background-color: black;
     color: white;
+}
+
+.button.bg-black{
     margin-left: 20px;
 }
 
