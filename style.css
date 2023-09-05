@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    min-height: 300px;
+}
+
+.debug-2{
+    min-height: 600px;
+}
+
+.debug-foot{
+    min-height: 400px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+}
+
+.row.yellow {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D3A01F ;    
+}
+
+.border {
+    border: 2px dashed black;
+}
+
+.container {
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container.bg-nav{
+    padding: 20px;
+    background-color: #A3CCD9;
+}
+
+.col-3 {
+    flex-basis: calc(100% /4);
+    padding: 5px;
+}
+
+.col-6 {
+    flex-basis: calc(100% /2);
+    padding: 5px;
+}
+
+.bg-blue{
+    background-color: #00008B;
+}
+
+.row.bg-pink {
+    max-width: 700px;
+    background-color:#EE82EE;
+}
+
+.col-100 {
+    flex-basis: 100%;    
+}
+
+.col-5{
+    flex-basis: calc((100% /12)*5);
+    background-color: #FFC0CB;
+}
+
+.col-7 {
+    flex-basis: calc((100% /12)*7);
+    background-color: #1E90FF;
+}
+
+.reverse {
+    flex-direction: row-reverse ;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
+.bg-green{
+    background-color: #228B22;
+}
+
+.container.bg-black{
+    background-color: #23272A;
+    border-bottom: 2px solid white;
+}
+
+
+.col-4 {
+    background-color:#F08080 ;
+    flex-basis: calc(100% /3);
+}
+
+.col-2{
+    background-color: #20B2AA;
+    flex-basis: calc(100% /6);
+    border: 2px dashed white;
+}
+
+.bg-acquamarine{
+    background-color: #7FFFD4;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.bg-peach{
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    padding: 2px;
+}
