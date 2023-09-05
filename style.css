@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: fredoka;
+    font-weight: 400;
 }
 
 a{
@@ -11,14 +12,6 @@ a{
 }
 
 /* debug */
-.debug{
-    min-height: 300px;
-}
-
-.debug-2{
-    min-height: 600px;
-}
-
 .debug-foot{
     min-height: 400px;
 }
@@ -132,10 +125,6 @@ h1{
     background-color: #F6F6F6;
 }
 
-.bg-green{
-    background-color: #228B22;
-}
-
 .container.bg-black{
     background-color: #23272A;
     border-bottom: 2px solid white;
@@ -159,6 +148,31 @@ h1{
     background-color: #20B2AA;
     flex-basis: calc(100% /6);
     border: 2px dashed white;
+}
+
+.row-vertical-large{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.adventure{
+    background-image: url(./img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.violet-button{
+    background-color: #8EA1E1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; 
+    font-weight: 600;  
 }
 
 .bg-acquamarine{
