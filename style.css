@@ -176,18 +176,6 @@ h1{
     font-weight: 600;  
 }
 
-.bg-acquamarine{
-    background-color: #7FFFD4;
-    justify-content: space-between;
-    padding: 10px 0;
-}
-
-.bg-peach{
-    background-color: #FFC0CB;
-    border: 2px dashed black;
-    padding: 2px;
-}
-
 ul{
     line-height: 30px;
 }
