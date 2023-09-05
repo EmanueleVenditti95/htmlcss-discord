@@ -35,20 +35,15 @@ body{
     max-width: 1200px;
 }
 
+
 .row{
     margin: 0 auto;
     max-width: 900px;
     display: flex;
     flex-direction:row;
+    justify-content: space-between;    
 }
 
-.row-vertical{
-    margin: 0 auto;
-    max-width: 500px;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
 
 .button{
     background-color: white;
@@ -65,6 +60,14 @@ body{
 }
 
 /* header */
+.row-vertical{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
 .nav {
     flex-direction: row;
     justify-content: space-between;    
@@ -81,7 +84,7 @@ body{
 /* header */
 
 /* section head */
-h1{
+.row-vertical > h1{
     font-size: 40px;
     padding-bottom: 30px;
 }
@@ -92,6 +95,7 @@ h1{
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .row-button{
@@ -105,18 +109,19 @@ h1{
     flex-basis: 100%;    
 }
 
-.col-5{
-    flex-basis: calc((100% /12)*5);
-    background-color: #FFC0CB;
+.img-text{
+    max-width: 400px;
 }
 
-.col-7 {
-    flex-basis: calc((100% /12)*7);
-    background-color: #1E90FF;
+
+h1{
+    font-size: 40px;
 }
+
 
 .reverse {
     flex-direction: row-reverse ;
+    
 }
 
 .bg-white{
@@ -124,7 +129,7 @@ h1{
 }
 
 .bg-grey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .bg-green{
@@ -136,6 +141,14 @@ h1{
     border-bottom: 2px solid white;
 }
 
+.col-5{
+    flex-basis: calc((100% /12)*5);
+    padding-top: 25px;
+}
+
+.col-7 {
+    flex-basis: calc((100% /12)*7);
+}
 
 .col-4 {
     background-color:#F08080 ;
