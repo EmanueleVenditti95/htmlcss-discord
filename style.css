@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fredoka;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     list-style: none;
 }
@@ -36,9 +36,11 @@ body{
 .button{
     background-color: white;
     color: black;
-    padding: 10px 20px;
+    padding: 0px 20px;
     border-radius: 20px; 
-    font-weight: 600;  
+    font-weight: 600;
+    white-space: nowrap; 
+    line-height: 50px; 
 }
 
 .bg-black {
@@ -51,17 +53,11 @@ body{
 }
 
 /* header */
-.row-vertical{
-    margin: 0 auto;
-    max-width: 500px;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
 
 .nav {
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    align-items: center;   
 }
 
 .bg-nav{
@@ -75,6 +71,14 @@ body{
 /* header */
 
 /* section head */
+.row-vertical{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
 .row-vertical > h1{
     font-size: 40px;
     padding-bottom: 30px;
@@ -86,22 +90,26 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .row-button{
     padding: 20px 20px 50px 20px;
     display: flex;
-    justify-content: space-between;
 }
 /* section head */
 
+.section {
+    padding: 100px 0;
+}
+
 .img-text{
-    max-width: 400px;
+    max-width: 100%;
 }
 
 h1{
     font-size: 40px;
+    font-weight: 600;
 }
 
 .reverse {
@@ -144,6 +152,7 @@ h1{
     max-width: 900px;
     display: flex;
     flex-direction:column;
+    text-align: center;
     align-items: center;
 }
 
@@ -161,7 +170,8 @@ h1{
     color: white;
     padding: 10px 20px;
     border-radius: 20px; 
-    font-weight: 600;  
+    font-weight: 600; 
+    align-items: center; 
 }
 
 ul{
